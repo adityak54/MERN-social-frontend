@@ -146,7 +146,9 @@ const Post = ({
       <div className="my-2 flex justify-center">
         <img
           className=" w-[400px] h-[400px] object-cover rounded-lg shadow-lg"
-          src={`http://localhost:3000/${imgURL}`}
+          // src={`http://localhost:3000/${imgURL}`}
+          // src={`https://mern-social-backend-eight.vercel.app/${imgURL}`}
+          src={`https://mern-social-backend-a0aa.onrender.com/${imgURL}`}
           alt=""
         />
       </div>
